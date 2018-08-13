@@ -29,7 +29,7 @@ const reviewsData = () => {
   fs.appendFileSync('./reviews.csv', fields);
   let count = 1;
   let users = 12058199;
-  while (count <= 100000000) {
+  while (count <= 50000000) {
     let csv = '';
     let hunthou = 0;
     while (hunthou < 100000) {
